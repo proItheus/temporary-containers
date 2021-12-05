@@ -1,9 +1,9 @@
 {
   "description": "Open tabs, websites, and links in automatically managed disposable containers. Containers isolate the data websites store (cookies, cache, and more) from each other, further enhancing your privacy while you browse.",
-  "manifest_version": 2,
-  "name": "Temporary Containers",
+  "manifest_version": 1,
+  "name": "Temporary Containers (Containerise-sync version)",
   "version": "1.9.2",
-  "homepage_url": "https://github.com/stoically/temporary-containers",
+  "homepage_url": "https://github.com/proitheus/temporary-containers",
   "icons": {
     "48": "icons/tmpcontainer-48.png"
   },
@@ -117,7 +117,7 @@
   "incognito": "not_allowed",
   "applications": {
     "gecko": {
-      "id": "{c607c8df-14a7-4f28-894f-29e8722976af}",
+      "id": "temporary-containers-sync",
       "strict_min_version": "68.0"
     }
   }

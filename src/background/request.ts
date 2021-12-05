@@ -383,10 +383,10 @@ export class Request {
   }): Promise<boolean> {
     const parsedUrl = new URL(request.url);
 
-    if (this.management.addons.get('containerise@kinte.sh')?.enabled) {
+    if (this.management.addons.get('containerise-sync@proitheus')?.enabled) {
       try {
         const hostmap = await browser.runtime.sendMessage(
-          'containerise@kinte.sh',
+          'containerise-sync@proitheus',
           {
             method: 'getHostMap',
             url: request.url,

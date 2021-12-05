@@ -531,7 +531,7 @@ export const addons: Map<
     },
   ],
   [
-    'containerise@kinte.sh',
+    'containerise-sync@proitheus',
     {
       name: 'Containerise',
       enabled: false,
