@@ -117,7 +117,7 @@
   "incognito": "not_allowed",
   "applications": {
     "gecko": {
-      "id": "temporary-containers-sync",
+      "id": "temporary-containers-sync@proitheus",
       "strict_min_version": "68.0"
     }
   }
